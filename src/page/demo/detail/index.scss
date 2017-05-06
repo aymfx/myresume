@@ -1,0 +1,48 @@
+@import "$yo-config/core/reset";
+@import "$yo-config/layout/yo-root";
+@import "$yo-config/layout/yo-flex";
+@import "$yo-config/element/yo-btn";
+@import "$yo-config/fragment/yo-list";
+
+@include yo-btn(
+    $name: light,
+    $border-width: 1px,
+    $border-color: #666,
+    $bgcolor: #fff,
+    $color: #333
+){
+    margin: .1rem;
+};
+.yo-card{
+    position: relative;
+    overflow: hidden;
+    margin: .1rem;
+    background-color: #fff;
+}
+.yo-card>.extra .img-desc{
+    display: flex;
+    -webkit-box-pack: center; 
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    text-shadow: -1px 1px 0 #666;
+}
+#det .yo-list > .item::after{
+    border:none;
+    -webkit-transform-origin: -20px 0px;
+     transform-origin: -20px 0;
+     margin-bottom:15px; 
+}
+#det .yo-list > .item{
+    box-shadow: 5px 5px 27px #ddd;
+    margin-bottom: 15px;
+}

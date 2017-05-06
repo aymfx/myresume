@@ -1,0 +1,11 @@
+@import "$yo-config/core/reset";
+@import "$yo-config/layout/yo-root";
+@import "$yo-config/layout/yo-flex";
+@import "$yo-config/fragment/yo-list";
+
+.m-list {
+    background-color: #eeeeee;
+}
+#list .yo-list > .item{
+    padding:0;
+}

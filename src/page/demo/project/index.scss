@@ -1,0 +1,18 @@
+@import "$yo-config/core/reset";
+@import "$yo-config/layout/yo-root";
+@import "$yo-config/layout/yo-flex";
+@import "$yo-config/fragment/yo-list";
+
+.m-list {
+    background-color: #eeeeee;
+}
+#pro .yo-list > .item::after{
+    border:none;
+    -webkit-transform-origin: -20px 0px;
+     transform-origin: -20px 0;
+     margin-bottom:15px; 
+}
+#pro .yo-list > .item{
+    box-shadow: 5px 5px 27px #ddd;
+    margin-bottom: 15px;
+}

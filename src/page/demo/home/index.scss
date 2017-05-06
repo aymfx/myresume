@@ -1,0 +1,81 @@
+@import "$yo-config/core/reset";
+@import "$yo-config/layout/yo-root";
+@import "$yo-config/layout/yo-flex";
+
+.m-content {
+    .title {
+        text-align: center;
+        font-size: .2rem;
+        color: #666666;
+        padding: .1rem;
+    } 
+    .notice {
+        text-align: center;
+        font-size: .16rem;
+        color: #555555;
+        padding: .1rem;
+    }
+    .m-content-active {
+        opacity: 0.7;
+    }
+}
+
+.yo-header{
+    background: #4682b4;
+}
+
+.header{
+    height: 80px;
+    background: #5eb9e8;
+}
+.yo-list > .item::after{
+    border: none;
+}
+.yo-list > .item, .yo-list .front{
+      padding: 5px 0.1rem;
+}
+
+.yo-list > .label > .flex, .yo-list > .item > .flex, .yo-list .front > .flex{
+    margin-left: 0.5rem;
+}
+.content h3{
+    height: 0.4rem;
+    line-height: 0.4rem;
+    padding-left: 0.1rem;
+}
+hr{
+    border: 1px solid #ccc;
+    height: 0;
+}
+.other .yo-btn{
+    height:0.28rem;
+    line-height: 0.28rem;
+    padding: 0 0.2em;
+    border-radius: 5px;
+    background-color: bisque;
+    margin:10px 15px;
+}
+
+#btn-main{/*立即体验*/
+    position: relative;
+    left: 1.2rem;
+    top: 4.38rem;
+}
+.Header{
+    padding:10px;
+}
+.header{
+    background:lightblue;
+    background:url("/myResume/src/html/bg.jpg") no-repeat left top;
+    background-size:100% 100%;
+}
+.headerImg{
+    float:left;
+    margin-right:15px;
+}
+.headerInfo p{
+    margin:10px 0;
+}
+.yo-header{
+    background:#89dddf;
+}
